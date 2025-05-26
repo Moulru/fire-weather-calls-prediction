@@ -30,6 +30,10 @@ This project aims to forecast emergency 119 call volumes based on fire incident 
 /data
 /code
 
+## 🗓 Project Duration
+
+June 2, 2025 – June 22, 2025
+
 ## 👥 Team Members
 
 - Junho Park  
