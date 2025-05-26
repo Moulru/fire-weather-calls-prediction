@@ -1,2 +1,39 @@
-# fire-weather-calls-prediction
-Predicting emergency 119 call volumes by integrating fire incident data with weather big data.
+# Fire & Weather Emergency Call Prediction
+
+(주제2)
+Predicting 119 emergency call volumes by integrating fire incident data with weather big data.
+
+## 📌 Project Description
+
+This project aims to forecast emergency 119 call volumes based on fire incident records and weather big data. By analyzing patterns in weather (e.g., temperature, humidity, wind) and past fire response data, the model can help improve emergency preparedness and resource allocation.
+
+## 📊 Data Sources
+
+- Fire incident data from fire departments or open public data portals
+- Weather data from national meteorological services (e.g., KMA, NOAA)
+
+## 🔍 Key Features
+
+- Data preprocessing and integration
+- Feature engineering from temporal and weather variables
+- Time-series or regression-based prediction model
+- Visualization of historical and predicted call trends
+
+## 🛠 Tech Stack
+
+- Python (Pandas, Scikit-learn, XGBoost)
+- Jupyter Notebook
+- Matplotlib / Seaborn for visualization
+
+## 📁 Structure
+
+/data
+/code
+
+## 👥 Team Members
+
+- Junho Park  
+- Sangho Byun  
+- Jihoon Han  
+- Seongwan Cho  
+- Jinui Jeong
