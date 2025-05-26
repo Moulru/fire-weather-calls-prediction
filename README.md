@@ -1,7 +1,7 @@
 # Fire & Weather Emergency Call Prediction
 
-(주제2)
 Predicting 119 emergency call volumes by integrating fire incident data with weather big data.
+기상청 2025 날씨 빅데이터 콘테스트 주제2
 
 ## 📌 Project Description
 
