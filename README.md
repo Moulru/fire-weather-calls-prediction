@@ -5,30 +5,34 @@ Predicting 119 emergency call volumes by integrating fire incident data with wea
 
 ## 📌 Project Description
 
-This project aims to forecast emergency 119 call volumes based on fire incident records and weather big data. By analyzing patterns in weather (e.g., temperature, humidity, wind) and past fire response data, the model can help improve emergency preparedness and resource allocation.
+This project forecasts emergency 119 call volumes by analyzing patterns from fire incident records and comprehensive weather data. We leverage temperature, humidity, wind, and categorical fire-related features to enhance prediction accuracy. The final prediction model is an ensemble of three powerful gradient boosting models, aiming to improve emergency preparedness and resource allocation.
 
 ## 📊 Data Sources
 
-- Fire incident data from fire departments or open public data portals
+- Fire incident data from fire departments or open public data portals  
 - Weather data from national meteorological services (e.g., KMA, NOAA)
 
 ## 🔍 Key Features
 
-- Data preprocessing and integration
-- Feature engineering from temporal and weather variables
-- Time-series or regression-based prediction model
-- Visualization of historical and predicted call trends
+- Data preprocessing and integration of multiple datasets  
+- Handling of missing values and categorical encoding tailored for each model  
+- Feature engineering from temporal and weather variables  
+- Ensemble modeling using CatBoost, XGBoost, and LightGBM to boost prediction performance  
+- Weighted average ensemble with weights: CatBoost (40%), XGBoost (30%), LightGBM (30%)  
+- Log-transformation of target variable for better regression fit  
+- Prediction output post-processing including grouping and averaging
 
 ## 🛠 Tech Stack
 
-- Python (Pandas, Scikit-learn, XGBoost)
-- Jupyter Notebook
+- Python (Pandas, NumPy, Scikit-learn, CatBoost, XGBoost, LightGBM)  
+- Jupyter Notebook  
 - Matplotlib / Seaborn for visualization
 
-## 📁 Structure
+## 📁 Project Structure
 
-/data
-/code
+/code  
+/data  
+/검증기록  
 
 ## 🗓 Project Duration
 
