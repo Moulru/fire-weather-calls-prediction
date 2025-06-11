@@ -1,6 +1,7 @@
 XGB 단일모델로 검증
 
 결측치 : 제거
+
 파라미터 : 
 xgb_model = XGBRegressor(
     n_estimators=1000,
